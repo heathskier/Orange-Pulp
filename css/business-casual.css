@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #eeee22;
+    background-color: #FFF200;
 	background-image: url('../img/Orange_20-012.png');
 	background-repeat: repeat;
 	background-position: top left;
@@ -31,12 +31,12 @@ h6 {
 p {
     font-size: 1.25em;
     line-height: 1.6;
-    color: #000;
+    color: #49A7A4;
 }
 
 hr {
     max-width: 400px;
-    border-color: #999999;
+    border-color: #000;
 }
 
 .brand,
@@ -57,7 +57,8 @@ hr {
 }
 
 .img-full {
-    min-width: 100%;
+    width: 90%;
+    margin-top: 10px;
 }
 
 .brand-before,
@@ -96,13 +97,17 @@ hr {
 
 .img-border {
     float: none;
-    margin: 0 auto 0;
+    margin: 15px auto 15px;
     border: #999999 solid 1px;
 }
 
 .img-left {
     float: none;
-    margin: 0 auto 0;
+    margin: 15 px auto 15px;
+}
+
+.orangetext {
+	color: #ED6A36;	
 }
 
 footer {
@@ -166,7 +171,6 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
     }
 
     .nav>li>a {
