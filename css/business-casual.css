@@ -5,7 +5,7 @@
  */
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica",Helvetica,Arial,sans-serif;
     background-color: #FFF200;
 	background-image: url('../img/Orange_20-012.png');
 	background-repeat: repeat;
@@ -22,8 +22,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*text-transform: uppercase;*/
+    font-family: "Helvetica",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -85,7 +85,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    /*background: rgba(255,255,255,0.9);*/
 }
 
 .intro-text {
@@ -107,12 +107,12 @@ hr {
 }
 
 .orangetext {
-	color: #ED6A36;	
+	color: black;	
 }
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    /*background: rgba(255,255,255,0.9);*/
 }
 
 footer p {
@@ -153,7 +153,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: #49A7A4;
     }
 
     .navbar {
